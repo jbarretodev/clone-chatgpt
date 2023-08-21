@@ -8,6 +8,7 @@ import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import { Message } from "./components/Message";
 import Spinner from "react-bootstrap/Spinner";
+
 function App() {
   const { isLoading, messages, sendMessage, input, setInput } = useChat({
     serviceUrl: "https://usellm.org/api/llm",
